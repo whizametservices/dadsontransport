@@ -82,7 +82,7 @@ export default function ProgressStats() {
     <section className="w-full bg-white overflow-hidden last-main-sec" ref={containerRef}>
       <div className="container">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium font-['Clash_Display'] uppercase text-black mb-40 md:mb-24 max-w-2xl text-center">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium font-['Clash_Display'] uppercase text-black mb-40 md:mb-24 max-w-2xl text-center new-styling-demo">
             WHY DISPATCH TEAMS <br />
             <span className="block md:mt-2">CHOOSE DADSON</span>
           </h2>

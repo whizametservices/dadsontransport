@@ -213,7 +213,7 @@ const page = () => {
       </section> */}
       {/* Features Area end */}
       {/* Why Choose Us Area start */}
-      <section className="team-area bgc-gray py-90 rpy-100 rel z-1">
+      <section className="team-area bgc-gray  second-section rel z-1">
 
         <div className="row justify-content-center">
           <div className="col-lg-12">
@@ -442,7 +442,7 @@ const page = () => {
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
               <div
-                className="section-title text-center mb-50"
+                className="section-title text-center mb-30"
                 data-aos="fade-up"
                 data-aos-duration={1500}
                 data-aos-offset={50}
@@ -581,7 +581,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h2>
+                <h2 className="new-styling-demo">
 
                   SPECIALIZED TRANSPORT
                 </h2>

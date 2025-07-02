@@ -453,13 +453,24 @@ p {
     margin: auto;
     display: block;
   }
+  section.new-space-section {
+    padding-top: 80px !important;
+}
+section.new-space-section-2 {
+    padding-top: 80px !important;
+}
 }
 
 @media only screen and (max-width: 767px) {
   .section-title h2 {
     font-size: 35px;
   }
-
+ section.new-space-section {
+    padding-top: 70px !important;
+}
+section.new-space-section-2 {
+    padding-top: 80px !important;
+}
   .case-study-item .content {
     text-align: center !important;
   }
@@ -3283,7 +3294,7 @@ h6,
 
   .rpt-100,
   .rpy-100 {
-    padding-top: 60px;
+    padding-top: 30px;
   }
 
   .rpt-105,
@@ -3836,7 +3847,7 @@ h6,
 
   .rmb-60,
   .rmy-60 {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 
   .rmb-65,
@@ -5739,7 +5750,10 @@ section.working-process-area.rpb-70.rel.z-1 {
 
     font-size: 28px !important;
   }
-
+section.contact-form-area.pt-130.rpt-100.pb-120.rpb-90 {
+    padding-top: 70px !important;
+    padding-bottom: 60px !important;
+}
   .section-title h2 {
     text-align: center;
   }
@@ -5751,11 +5765,11 @@ section.working-process-area.rpb-70.rel.z-1 {
   img.three-imgs,
   img.three-imgs-2 {
     border-radius: 0px !important;
-    margin: 30px 0;
+    margin: 20px 0;
   }
 
   section.why-choose-us-area.rpb-70.rel.z-1 {
-    padding: 50px 0 !important;
+    padding: 70px 0 50px 0 !important;
   }
 
 
@@ -5808,7 +5822,7 @@ section.working-process-area.rpb-70.rel.z-1 {
   }
 
   section.w-full.bg-white.overflow-hidden.last-main-sec {
-    padding: 20px 0 !important;
+    padding: 0px 0 60px 0!important;
     text-align: center !important;
   }
 
@@ -5839,7 +5853,7 @@ section.working-process-area.rpb-70.rel.z-1 {
   }
 
   section.working-process-area.rpb-70.rel.z-1 {
-    padding: 50px 0 !important;
+    padding: 28px 0 !important;
   }
 }
 
@@ -5850,7 +5864,17 @@ section.working-process-area.rpb-70.rel.z-1 {
     display: none;
   }
 }
-
+@media only screen and (max-width: 575px) and (min-width: 320px) {
+.new-padding-sect {
+    margin-top: 10px !important;
+}
+.new-padding-sect-2 {
+    margin-top: 30px !important;
+}
+.new-padding-sect-3 {
+    margin-top: 45px !important;
+}
+}
 .top-left ul li:not(:last-child):after,
 .top-right ul li:not(:last-child):after {
   position: absolute;
@@ -7460,14 +7484,16 @@ h2.choose-section {
   border-radius: 20px;
 
 }
-
+.new-img-sec {
+    margin: 30px 0 0 0;
+}
 @media only screen and (max-width: 767px) {
-  .service-item {
-    /* padding-bottom: 90px; */
-  }
-
+  .new-img-sec {
+    margin: 10px 0 0 0 !important;
+}
   .section-title.mb-40 {
     text-align: center;
+    margin-bottom: 20px !important;
   }
 
   .contact-info-part.rmb-55.aos-init.aos-animate {
@@ -7652,7 +7678,7 @@ p.coastt {
 
 .service-two-item h4 {
   margin-bottom: 15px;
-  font-size: 30px;
+  font-size: 22px !important;
   font-weight: 500;
 }
 
@@ -7662,7 +7688,7 @@ p.coastt {
 
 @media only screen and (max-width: 375px) {
   .service-two-item h4 {
-    font-size: 20px;
+    font-size: 22px !important;
   }
 }
 
@@ -13597,6 +13623,9 @@ blockquote .blockquote-footer:before {
   .working-process .accordion-item .accordion-header .accordion-button:not(.collapsed) .title {
     font-size: 30px;
   }
+  section.team-area.bgc-gray.second-section.rel.z-1 {
+    padding: 70px  0 0 0 !important;
+}
 }
 
 @media only screen and (max-width: 375px) {
@@ -13604,7 +13633,9 @@ blockquote .blockquote-footer:before {
     font-size: 28px;
   }
 }
-
+section.team-area.bgc-gray.second-section.rel.z-1 {
+    padding: 90px 0;
+}
 .working-process .accordion-item .accordion-header .accordion-button:not(.collapsed) .icon {
   color: white;
   -webkit-transform: rotate(45deg);
@@ -18374,7 +18405,7 @@ h5.text-white.new-font {
 }
 
 section.w-full.bg-white.overflow-hidden.last-main-sec {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .continuous-slider .slick-track {
@@ -18465,7 +18496,7 @@ img.thankyou {
 
   .rpt-100,
   .rpy-100 {
-    padding-bottom: 20px;
+    padding-bottom: 30px !important;
   }
 
   .working-process-image-two.ms-lg-auto.mb-30.rmt-40 {
@@ -18625,7 +18656,7 @@ img.thankyou {
   }
 
   section.working-process-area.rpb-70.rel.z-1 {
-    padding: 40px 0 !important;
+    padding: 28px 0 !important;
   }
 }
 
@@ -18684,11 +18715,14 @@ img.new-about-img {
 
 .new-service-txtt {
   text-align: center;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 p.coastt-1 {
   font-size: 18px;
   margin-bottom: 3px;
   line-height: 28px !important;
+}
+h2.new-styling-demo {
+    margin-bottom: 60px;
 }

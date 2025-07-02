@@ -37,7 +37,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className="services-area bgc-black pt-130 rpt-100 rel z-1">
+      <section className="services-area bgc-black pt-130 rpt-100 rel z-1 new-space-section">
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
@@ -60,7 +60,7 @@ const page = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="service-item ">
+              <div className="service-item new-padding-sect">
                 <div className="image">
                   <img
                     src="/assets/images/services/1.jpg" className="secvices-for-img"
@@ -82,7 +82,7 @@ const page = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="service-item hover-content">
+              <div className="service-item hover-content new-padding-sect-2">
                 <div className="image">
                   <img
                     src="/assets/images/services/2.jpg" className="secvices-for-img"
@@ -105,7 +105,7 @@ const page = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="service-item hover-content">
+              <div className="service-item hover-content new-padding-sect-2">
                 <div className="image">
                   <img
                     src="/assets/images/services/3.png" className="secvices-for-img"
@@ -127,7 +127,7 @@ const page = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="service-item hover-content">
+              <div className="service-item hover-content new-padding-sect-3">
                 <div className="image">
                   <img
                     src="/assets/images/services/4.jpg" className="secvices-for-img"
@@ -399,12 +399,12 @@ const page = () => {
         </div>
       </section> */}
 
-      <section className="case-studies-area pt-70 rpt-100 pb-100 rpb-70 rel z-1">
+      <section className="case-studies-area pt-70 rpt-100 pb-100 rpb-70 rel z-1 new-space-section-2">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
               <div
-                className="section-title text-center mb-50"
+                className="section-title text-center mb-30"
                 data-aos="fade-up"
                 data-aos-duration={1500}
                 data-aos-offset={50}

@@ -272,7 +272,7 @@ const Footer1 = () => {
             <div className="row">
             <div className="footer-text">
             <div>
-              <p className="m-0 last-line">Copyright © <Link href="/">Dadson.us 2025.</Link>  All rights reserved</p>
+              <p className="m-0 last-line">Copyright © <Link href="/">Dadsontransport.us 2025.</Link>  All rights reserved</p>
             </div>
           <div>
             <ul style={{ display: 'flex', gap: '20px', color: 'white' }}>

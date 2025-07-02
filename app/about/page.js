@@ -43,7 +43,7 @@ const page = () => {
           <div className="row ">
             <div className="col-lg-6">
               <div
-                className="why-choose-content rmb-55"
+                className="why-choose-content rmb-35"
                 data-aos="fade-right"
                 data-aos-duration={1500}
                 data-aos-offset={50}
@@ -112,7 +112,7 @@ const page = () => {
 
 
         </div>
-        <div className="col-lg-12 mt-15">
+        <div className="col-lg-12 new-img-sec">
           {/* <div className="why-choose-images"> */}
           <div className="row ">
             <div className="col-md-4 col-12">
@@ -141,7 +141,7 @@ const page = () => {
 
       <section id="AI" className="generative-ai-area pt-100 rpt-65 rel z-1">
         <div className="container">
-          <div className="row justify-content-between mb-45 rmb-90">
+          <div className="row justify-content-between mb-45 rmb-50">
             <div
               className="col-xl-5 col-lg-7 col-md-8"
               data-aos="fade-left"

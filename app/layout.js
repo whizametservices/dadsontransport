@@ -11,7 +11,7 @@ import "@css/slick.min.css";
 import "@css/style.css";
 
 export const metadata = {
-  title: "Dadson Dispatch",
+  title: "Dadson Transport ",
   description: "",
 };
 

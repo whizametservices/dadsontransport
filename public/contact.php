@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Email details
     $to      = "support@dadson.us"; // ✅ Replace with your own email
-    $subject = "Dadson Dispatch Enquiry";
+    $subject = "Dadson Transport Enquiry";
     $body    = "You have received a new message:\n\n"
              . "Name: $name\n"
              . "Phone: $phone\n"
@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $headers  = "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
-    $headers .= "From: Dadson Dispatch <no-replyar@dadson.us>\r\n";
+    $headers .= "From: Dadson Transport <no-replyar@dadson.us>\r\n";
     $headers .= "Reply-To: $email\r\n";
 
     // Send the email
