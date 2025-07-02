@@ -1,0 +1,39 @@
+/*******************************************************/
+/****************** ## Home Four Color ******************/
+/*******************************************************/
+body {
+    --Tekprof-lighter-color: #FFFCEF;
+    --Tekprof-primary-color: #464EE2;
+    --Tekprof-navyblue-color: #151F39;
+    --Tekprof-heading-font: 'Work Sans', sans-serif;
+    --Tekprof-navyblue-color: #151F39;
+}
+
+.bgc-navyblue {
+    background-color: var(--Tekprof-navyblue-color);
+}
+
+.subtitle-one {
+    border: 1px solid var(--Tekprof-border-color);
+}
+.scroll-top {
+    color: white;
+    border: 1px solid;
+    line-height: 38px;
+}
+
+.theme-btn, a.theme-btn {
+    border-radius: 20px;
+}
+
+.theme-btn.style-two,
+a.theme-btn.style-two {
+    color: white;
+    background: var(--Tekprof-navyblue-color);
+}
+
+.color-two {
+  --Tekprof-primary-color: #FEC458; }
+
+.color-four {
+  --Tekprof-primary-color: #FF008A; }
